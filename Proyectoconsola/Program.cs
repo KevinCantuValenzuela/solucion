@@ -28,6 +28,26 @@
 
             }
 
+            Console.WriteLine();
+
+            Producto soda = new Producto();
+            soda.descripcion = "cocacola 600ml";
+            soda.preciounitario = 30;
+
+            Producto sabritas = new Producto();
+            sabritas.descripcion = "tostitos";
+            sabritas.preciounitario = 50;
+
+            Console.WriteLine(sabritas.descripcion);
+
+            Producto doritos = sabritas;
+            doritos.descripcion = "doritos";
+            doritos.preciounitario = 45;
+
+            Console.WriteLine(sabritas.descripcion);
+
+
+
 
 
 
